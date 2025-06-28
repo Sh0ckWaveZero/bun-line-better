@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun db:push:*)",
+      "Bash(find:*)",
+      "Bash(rg:*)",
+      "WebFetch(domain:www.better-auth.com)",
+      "Bash(bun db:generate:*)",
+      "Bash(bun dev:server:*)",
+      "Bash(npx @better-auth/cli@latest generate --output ./prisma/schema/generated-auth.prisma)",
+      "Bash(rm:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": []
+  }
+}
